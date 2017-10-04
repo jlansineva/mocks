@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oulun lipaston tehtävänpalautusjärjestelmä - Loota</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-deep_orange.min.css"/>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <style>
+        .demo-content {
+            max-width: 1080px;
+        }
+
+        .full-width {
+            width: 100% !important;
+        }
+    </style>
+
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+            mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <div class="mdl-layout-title">Loota</div>
+            <div class="mdl-layout-spacer"></div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+                <label class="mdl-button mdl-js-button mdl-button--icon"
+                       for="fixed-header-drawer-exp">
+                    <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" name="sample"
+                           id="fixed-header-drawer-exp">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Kurssit:</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">TIEA123 - Tietoiset järjestelmät</a>
+            <a class="mdl-navigation__link" href="">TIEP101 - Teknillisten juttujen alkeet</a>
+            <a class="mdl-navigation__link" href="">TIEP102 - Teknillisten juttujen sulkeet</a>
+            <a class="mdl-navigation__link" href="">ROBA100 - RPA: Robotic Process Automation</a>
+            <a class="mdl-navigation__link" href="">YLEP100 - Yleistä jorinaa opiskelusta yliopistossa</a>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+        <div class="mdl-grid demo-content">
+            <div>
+                <h3>Kiirelliset palautushommat:</h3>
+                <h4>ROBA100 - RPA: Robotic Process Automation</h4>
+                <p>Palautus: <a><strong>Pitäis olla jo!</strong></a></p>
+                <!-- Jos meni väärin
+                <p>Huomioita: <a><strong class="mdl-accent">Opiskelija on todennäköisesti kopioinut tehtävän jostain.</strong></a></p>
+                -->
+                <p>Kirjoita essee enkuksi ohjelmistorobotiikasta. Ota kantaa siihen, miten se on otettu alalla vastaan
+                    ja kerro taloudellisita vaikutuksista. Ota myös jostain syystä kantaa DVD-myyntiin.</p>
+            </div>
+        </div>
+
+        <div class="mdl-grid demo-content">
+            <div class="mdl-cell mdl-cell--12-col">
+                <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield full-width">
+                        <textarea class="mdl-textfield__input" type="text" rows="50" id="sample5"></textarea>
+                        <label class="mdl-textfield__label" for="sample5">Kirjoita essee tähän</label>
+                    </div>
+
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <strong>Lähetä saman tien</strong>
+                    </button>
+                </form>
+            </div>
+
+
+            <!-- Jos kaikki lomakkeessa ok
+            <div class="mdl-grid demo-content">
+                <div>
+                <h3>Kiirelliset palautushommat:</h3>
+                <p>Ei kiireellistä palautettavaa, hyvä homma :)</p>
+                </div>
+            </div>
+            -->
+
+            <div class="mdl-grid demo-content">
+                <h3>Muita kursseja näön vuoksi:</h3>
+            </div>
+            <div class="mdl-grid demo-content">
+
+                <div class="mdl-cell--4-col mdl-cell">
+                    <div class=" mdl-card mdl-shadow--2dp ">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">ROBA100 - RPA: Robotic Process Automation</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">RPA on alalla suhteellisen uusi termi, jonka monet
+                            sekoittavat Rupert Wyattin elokuvaan <i>Rise of the Planet of the Apes</i>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                               data-upgraded=",MaterialButton,MaterialRipple">
+                                Toimimaton painike
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" mdl-cell--4-col mdl-cell">
+
+                    <div class=" mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">TIEP101 - Teknillisten juttujen alkeet</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">Teknillisten juttujen alkeet kurssilla opit tekemään
+                            alkeellisia teknisiä juttuja.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                               data-upgraded=",MaterialButton,MaterialRipple">
+                                Toimimaton painike
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mdl-cell--4-col mdl-cell">
+                    <div class=" mdl-card mdl-shadow--2dp ">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">TIEA123 - Tietoiset järjestelmät</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">Unohda tekoälyt, koneoppimiset sekä muut pärinäsanat ja
+                            opi rakentamaan suoraan tietoisia järjestelmiä. Heti kun opit, niin kerro muillekin miten se
+                            tehdään.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                               data-upgraded=",MaterialButton,MaterialRipple">
+                                Toimimaton painike
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+        <div class="mdl-snackbar__text"></div>
+        <button class="mdl-snackbar__action" type="button"></button>
+    </div>
+</div>
+</body>
+</html>

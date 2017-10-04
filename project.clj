@@ -10,4 +10,5 @@
                  [compojure "1.6.0"]]
   :main ^:skip-aot optimamock.core
   :target-path "target/%s"
+  
   :profiles {:uberjar {:aot :all}})
